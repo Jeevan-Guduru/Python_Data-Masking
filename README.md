@@ -10,7 +10,7 @@ This is developed as part of the end to end automated Data masking tool building
 
 A request will contain the Source DB name, table/file name,schema of the source from where data has to be provided to the requested user's environment. Further, this request details are stored in the underlying DB (mySQL) in a table. 
 
-Upon receiveing a request, this utility will connect to source DB and identifies the sensitive fields (Data Discovery) from the table/file in the request.
+Upon receiveing a request, this utility will connect to source DB using pre configured connection details and identifies the sensitive fields (Data Discovery) in the table/file mentioned in the request.
 
 Once the senisitive fields are identified , appropriate masking functionality is applied on the data in that fields replacing the actual data.
 
