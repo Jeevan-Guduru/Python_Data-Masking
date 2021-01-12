@@ -28,7 +28,9 @@ Underlying Database used for this utility is mySQL DB.
 
 ###Metadata Tables:###
 
-tbl_data_request_hd - this is the table where the user request details are stored.
+
+
+ <mark style="background-color: lightblue">tbl_data_request_hd</mark>- this is the table where the user request details are stored.
 
 tbl_connection - this table has pre defined connection details to various DBs (configured with this utility) . This table can be updated from front end by admin whenever a new DB connection is required. 
 Note : Each connection is identified by unique connection names which user can see and select in UI.
